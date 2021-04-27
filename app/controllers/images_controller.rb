@@ -5,13 +5,12 @@ class ImagesController < ApplicationController
 
     def create
         @image = current_user.images.build(image_params)
-        if image.save
+        if @image.save
             redirect_to image_path(@image.id), notice: "Image uploaded successfully"
         else
             render :new
-
+        end
     end
-end
 
     private
 
