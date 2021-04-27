@@ -7,5 +7,10 @@ class User < ApplicationRecord
   validates :username, presence: true, uniqueness: { case_sensitive: false }
   validates :first_name, presence: true
   validates :last_nam, presence: true
+
+  has_many :images
+  def full_name
+    [first_name, last_nam].join(' ')
+  end
 end
  
