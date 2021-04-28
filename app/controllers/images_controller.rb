@@ -1,6 +1,6 @@
 class ImagesController < ApplicationController
     def index
-      @images = Image.order(created_at: :desc).limit(15)
+      @images = Image.order(created_at: :desc).limit(10)
     end
   
     def show
