@@ -1,3 +1,4 @@
+
 # Lense
 
 Lense is a place for creators to explore freely and share their photography with others
@@ -5,6 +6,7 @@ Lense is a place for creators to explore freely and share their photography with
 Built for the Shopify Backend Challenge 2021!
 
 ## Demo
+https://user-images.githubusercontent.com/65317224/116443585-d2dcb980-a821-11eb-81c7-a7509a86e8c6.mov
 
 ## Build Locally
 
