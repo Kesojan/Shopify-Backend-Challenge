@@ -9,6 +9,7 @@ class User < ApplicationRecord
   validates :last_nam, presence: true
 
   has_many :images
+  
   def full_name
     [first_name, last_nam].join(' ')
   end
