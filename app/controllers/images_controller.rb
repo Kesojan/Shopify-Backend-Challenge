@@ -1,6 +1,6 @@
 class ImagesController < ApplicationController
     def index
-      @images = Image.order(created_at: :desc).limit(10)
+      @images = Image.order(created_at: :desc).limit(14)
     end
   
     def show
@@ -14,7 +14,7 @@ class ImagesController < ApplicationController
     def create
       @image = current_user.images.build(image_params)
       if @image.save
-        redirect_to @image, notice: 'Image uploaded!'
+        redirect_to @image, notice: 'Image uploaded, Nice!'
       else
         render :new
       end
