@@ -60,8 +60,10 @@ rails s
 
 ## Resources
 
-This was my first time using Ruby and Ruby on Rails. I used the following resources in conjunction with articles to help me make this app.
+This was my first time using Ruby on Rails. I used the following resources in conjunction with articles to help me make this app.
 * [Active Storage Documentation](https://edgeguides.rubyonrails.org/active_storage_overview.html)
 * [Devise Authentication](https://guides.railsgirls.com/devise)
 * [Rails Guide](https://guides.rubyonrails.org/v5.0/getting_started.html)
 * [Ruby on Rail Architecture](https://www.educative.io/blog/ruby-on-rails)
+* [CRUD apps using Rails](https://www.youtube.com/watch?v=oyjzi837wME&t=205s)
+* [Ruby on Rails Intro](https://www.youtube.com/watch?v=fmyvWz5TUWg)
