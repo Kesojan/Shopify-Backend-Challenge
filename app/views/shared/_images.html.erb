@@ -1,0 +1,10 @@
+<div class ="card-columns">
+    <% images.each do |image| %>
+        <div class = "card">
+            <div class = "card-body p-1">
+                <%= image_tag image.image, class: 'd-block w-100' %>
+                <%= link_to "View Image", image_path(image.id), class: 'btn btn-secondary strecthed-link'%>
+            </div>
+        </div>  
+    <% end %>
+</div>
